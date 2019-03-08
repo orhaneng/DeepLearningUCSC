@@ -1,0 +1,18 @@
+The aim of this exercise is to train you in debugging networks using the good old print function and also tensorboard.
+To simulate poor training, we will train a multilayer perceptron using the CIFAR data.
+1. Use the CIFAR data set reader from the first homework and read the CIFAR-10 files again.  
+2. Apply random noise to the image Add random values t image. Add two image together. (2*55 Range 0-20 10%
+ 3. Convert the image to float and scale to [0.0, 1.0] by dividing the pixel values by the highest pixel value.
+0 -255 => 0 - 1    
+4. Convert all labels to onehot encoding
+numpy, tensor flow
+ 5. Build a 3-layer multilayer perceptron of size [512, 256, 128]. 
+Hidden layer of sizes.  Final out is 10
+3012 , 512, 256, 128, 10
+ 6. Create a tensorboard summary for plotting the histogram of the weights of the three layers.
+use  tensor flow histogram
+ 7. Also write the cost / loss at the end of each epoch to tensorboard.
+ 8. Train the network with learning rates of [0.1, 0.01, 0.001]. You will notice that the network will not converge well. 9. Submit the snapshot of the histograms for the three learning rates. Describe your observations.
+4 weight will be submitted. For histogram for each learning rate.   Use sigmoid function.
+sigmoid Butter layers change fast, input layers not change fast. 
+
