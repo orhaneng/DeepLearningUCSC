@@ -14,5 +14,4 @@ use  tensor flow histogram
  7. Also write the cost / loss at the end of each epoch to tensorboard.
  8. Train the network with learning rates of [0.1, 0.01, 0.001]. You will notice that the network will not converge well. 9. Submit the snapshot of the histograms for the three learning rates. Describe your observations.
 4 weight will be submitted. For histogram for each learning rate.   Use sigmoid function.
-sigmoid Butter layers change fast, input layers not change fast. 
-
+sigmoid Butter layers change fast, input layers not change fast.
